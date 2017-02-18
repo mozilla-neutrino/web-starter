@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "description": "Get started with Web!",
+  "private": true,
+  "config": {
+    "presets": [
+      "neutrino-preset-airbnb-base",
+      "neutrino-preset-web"
+    ]
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build"
+  },
+  "author": "Hassan Ali <helfi92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^4.0.1",
+    "neutrino-preset-airbnb-base": "^4.0.1",
+    "neutrino-preset-web": "^4.0.1"
+  }
+}
