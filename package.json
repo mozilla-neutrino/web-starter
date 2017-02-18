@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Get started with Web!",
+  "private": true,
   "config": {
     "presets": [
       "neutrino-preset-airbnb-base",
