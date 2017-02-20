@@ -2,6 +2,9 @@
   "version": "1.0.0",
   "description": "Get started with Web!",
   "private": true,
+  "engines" : {
+    "node" : ">=6.9"
+  },
   "config": {
     "presets": [
       "neutrino-preset-airbnb-base",
