@@ -6,7 +6,7 @@
     "node": ">=6.9"
   },
   "neutrino": {
-    "presets": [
+    "use": [
       "neutrino-preset-airbnb-base",
       "neutrino-preset-web"
     ]
@@ -18,8 +18,8 @@
   "author": "Hassan Ali <helfi92@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "neutrino": "5.0.0-beta.1",
-    "neutrino-preset-airbnb-base": "5.0.0-beta.1",
-    "neutrino-preset-web": "5.0.0-beta.1"
+    "neutrino": "^5.1.1",
+    "neutrino-preset-airbnb-base": "^5.1.0",
+    "neutrino-preset-web": "^5.1.0"
   }
 }
