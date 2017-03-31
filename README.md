@@ -92,8 +92,8 @@ _Example: Put lodash into a separate "vendor" chunk:_
 
 ```json
 {
-  "config": {
-    "neutrino": {
+  "neutrino": {
+    "config": {
       "entry": {
         "vendor": [
           "lodash"
@@ -115,9 +115,11 @@ _Example: Change the application mount ID from "root" to "app":_
 
 ```json
 {
-  "config": {
-    "html": {
-      "appMountId": "app"
+  "neutrino": {
+    "options": {
+      "html": {
+        "appMountId": "app"
+      }
     }
   }
 }
