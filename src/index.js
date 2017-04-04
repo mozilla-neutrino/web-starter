@@ -1,8 +1,20 @@
-const rootEl = document.getElementById('root');
+import app from './app';
 
-rootEl.innerHTML = '<div style="padding: 20px"><h1>Neutrino</h1><p>Welcome to Web</p></div>';
+const root = document.getElementById('root');
+let replaced;
+
+const load = () => {
+  if (replaced) {
+    replaced = root.replaceChild(app(), replaced);
+  } else {
+    replaced = app();
+    root.appendChild(replaced);
+  }
+};
 
 // This is needed for Hot Module Replacement
 if (module.hot) {
-  module.hot.accept();
+  module.hot.accept('./app', load);
 }
+
+load();
